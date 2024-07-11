@@ -3,6 +3,7 @@ import React from "react";
 import { Boxes } from "../ui/background-boxes";
 import { cn } from "../../utils/cn";
 import "./Hero.css";
+import { GlobeDemo } from "../ui/GlobeDemo";
 
 
 
@@ -17,18 +18,16 @@ export function Hero() {
 <Boxes />
 
       <div className="landing text-white z-20 pointer-events-none" >
-                <header>
-                    <h2 >DocuMate</h2>
-                    <div>
-                        <a href="" target="_blank">Github</a>
-                        <a href="" onClick={()=>navigate("/create-readme")}>Create</a>
-                    </div>
-                </header>            
+      <header class="flex flex-col items-center justify-center p-4">
+        <img src="./logo-no-background.png" class="w-72 h-32 mt-9" alt="img not found" />
+    
+    
+    </header>         
                 <div className="landing-center">
-                    <div className="landing-left">
+                    <div className="landing-left px-24 ">
 
                     <div className="main-title">
-                        Creating Github Profile Readme is now easy
+                        <h1>Welcome to DocuMate</h1>
                     </div>
                     <p>
                     DocuMate is a user-friendly tool that simplifies the process of creating README.md files for your Github profile. With DocuMate, you can easily create a README file that showcases your projects, skills, and interests.
@@ -36,7 +35,7 @@ export function Hero() {
                 <button id="start" onClick={()=>navigate("/create-readme")}>Create Readme</button>
                     </div>
                     
-                        <img src="Landing.jpg" alt="landing" />
+                    <GlobeDemo/>
                     
                 </div>
             </div>
