@@ -1,7 +1,19 @@
+import React from "react";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { LampDemo } from "./components/lamp";
+import { Hero } from "./components/Hero/Hero";
+
+
+
+LampDemo
+// import "../styles/Landing.css";
 export default function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    // const navigate = useNavigate();
+    return(
+        <>
+ <Hero/>
+        
+        </>
+    )
 }
