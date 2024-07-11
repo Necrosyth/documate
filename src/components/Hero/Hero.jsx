@@ -20,7 +20,7 @@ export function Hero() {
                 <header>
                     <h2 >DocuMate</h2>
                     <div>
-                        <a href="http://github.com/mspatel18/ReadmeWizard" target="_blank">Github</a>
+                        <a href="" target="_blank">Github</a>
                         <a href="" onClick={()=>navigate("/create-readme")}>Create</a>
                     </div>
                 </header>            
