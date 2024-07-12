@@ -8,7 +8,7 @@
 
 header{
   
-  border-bottom: #DFE0E6 solid 1px;
+  /* border-bottom: #DFE0E6 solid 1px; */
 }
 
 .landing-center{
@@ -42,10 +42,7 @@ header{
   font-weight: 400;
 }
 .landing-left button{
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #007DFE;
+
   color: white;
   font-size: 1.2rem;
   font-weight: 500;
@@ -60,7 +57,7 @@ header{
       width: 100vw;
       margin-top: 100px;
   }
-  .landing-center img{
+  .landing-center{
       width: 70%;
       aspect-ratio: 1/1;
   }
