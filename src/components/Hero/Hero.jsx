@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 import { Boxes } from "../ui/background-boxes";
-import { cn } from "../../utils/cn";
-import "./Hero.css";
 import { GlobeDemo } from "../ui/GlobeDemo";
 
 
@@ -19,7 +17,7 @@ export function Hero() {
 
       <div className="landing text-white z-20 pointer-events-none" >
       <header class="flex flex-col items-center justify-center p-2">
-        <img src="./logo-no-background.png" class="w-72 h-28 mb-8" alt="img not found" />
+        <img src="./logo-no-background.png" class="w-68 h-20  " alt="img not found" />
     
     
     </header>         <div className="-mt-32 ">
